@@ -1,15 +1,25 @@
 ---
 es:
-  categories:
-    form:
-      description: Descripcion
-      name: Nombre
-    new_category: 'Nueva Categoria'
   activerecord:
     models:
       category:
         one: Categoria
         others: Categorias
+      task:
+        one: Tarea
+        others: Categorias
+  categories:
+    form:
+      description: Descripcion
+      name: Nombre
+    new_category: Nueva Categoria
   common:
-    back: 'Atras'
+    back: Atras
   hello: Hello world
+  tasks:
+    form:
+      description: Description
+      due_date: Due date
+      name: Name
+      category: Categoria
+    new_task: Nueva Tarea
