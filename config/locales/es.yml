@@ -17,9 +17,11 @@ es:
     back: Atras
   hello: Hello world
   tasks:
+    errors:
+      due_date: La fecha no puede estar en el pasado
     form:
+      category: Categoria
       description: Description
       due_date: Due date
       name: Name
-      category: Categoria
     new_task: Nueva Tarea

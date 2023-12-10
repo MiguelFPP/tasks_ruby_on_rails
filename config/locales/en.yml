@@ -5,6 +5,9 @@ en:
       category:
         one: Categoria
         others: Categorias
+      task:
+        one: Tarea
+        others: Categorias
   categories:
     form:
       description: Description
@@ -14,7 +17,10 @@ en:
     back: Atras
   hello: Hello world
   tasks:
+    errors:
+      due_date: Due date
     form:
+      category: Categoria
       description: Description
       due_date: Due date
       name: Name

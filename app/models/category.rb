@@ -10,4 +10,9 @@
 #
 class Category < ApplicationRecord
   has_many :tasks
+
+  #validations
+  validates :name, :description, presence:true
+  #validation uniqueness and not case sensitive
+  validates :name, uniqueness: { case_sensitive: false}
 end
